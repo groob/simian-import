@@ -30,7 +30,7 @@ type DSPackageInfo struct {
 	InstallTypes []string  `datastore:"install_types"`
 }
 
-func main() {
+func not_main() {
 	var (
 		flProject  = flag.String("gcp.project", "", "GCP Project Name")
 		flPkgsinfo = flag.String("pkgsinfo", "", "path to pkgsinfo")
